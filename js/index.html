@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang=fr dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <title>ADD com crée votre identité visuelle</title>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!--   <script type="text/javascript">
+  $( document ).ready(function() {
+
+    console.log( "ready!" );
+
+function selectAllSVG(){
+    console.log('svg');
+    jQuery('img[src$=".svg"]').each(function() {
+      var $img = jQuery(this);
+      var imgID = $img.attr('id');
+      var imgClass = $img.attr('class');
+      var imgURL = $img.attr('src');
+      jQuery.get(imgURL, function(data) {
+        // Get the SVG tag, ignore the rest
+        var $svg = jQuery(data).find('svg');
+
+        // Add replaced image's ID to the new SVG
+        if (typeof imgID !== 'undefined') {
+          $svg = $svg.attr('id', imgID);
+        }
+        // Add replaced image's classes to the new SVG
+        if (typeof imgClass !== 'undefined') {
+          $svg = $svg.attr('class', imgClass + ' replaced-svg');
+        }
+
+        // Remove any invalid XML tags as per http://validator.w3.org
+        $svg = $svg.removeAttr('xmlns:a');
+
+        // Replace image with new SVG
+        $img.replaceWith($svg);
+
+      }, 'xml');
+
+    });
+  }
+    selectAllSVG();
+    });
+  </script> -->
+</head>
+
+<body>
+  <header>
+
+      <div class="header-container">
+        <div class="logo">
+        <img src="icons/logo_ADDcom.svg" alt="logo_ADDcom">
+        <span class="typeH1">crée avec <span class="bg-bleu">VOUS</span></span>
+        </div>
+        <h1>votre <span class="bg-bleu">IDENTITE VISUELLE</span></br>
+  de <span class="bg-bleu">A à Z</span></h1>
+      </div>
+      <div class="bg bg-img"></div>
+
+  </header>
+
+  <main>
+  <div class="menuBurger">
+    <i id="Burger" class="fas fa-bars show" onclick="openMenu()"></i>
+    <i id="Cross" class="fas fa-times hide" onclick="closeMenu()"></i>
+  </div>
+    <nav class="container">
+      <ul>
+        <li><a href="#">Présentation</a></li>
+        <li><a href="#">Nos prestations</a></li>
+        <li><a href="#">Nos méthodes</a></li>
+        <li><a href="#">Nous contacter</a></li>
+      </ul>
+    </nav>
+
+    <section id="visualIdentity">
+      <div class="container">
+        <div class="text">
+          <h2><strong>L’identité visuelle</strong> c’est la</br>
+            <span class="bg-jaune txt-duck">REPRÉSENTATION GRAPHIQUE</span></br>
+            de <b>l’âme de votre <strong>marque</strong></b></h2>
+          <div class="text-stairs">
+            <p><strong>L’identité visuelle</strong> forge l’image de l’entreprise, représente : </p>
+            <div class="flexcol">
+              <p class="bg-jaune txt-duck">votre ACTIVITÉ</p>
+              <p class="bg-jaune txt-duck">vos SERVICES</p>
+              <p class="bg-jaune txt-duck">vos VALEURS</p>
+            </div>
+          </div>
+          <p>Une <strong>identité visuelle efficace</strong> apporte un pouvoir à une marque. Elle permet :
+          </p>
+          <ul>
+            <li>d’attirer <span class="bg-jaune txt-duck">l’attention</span> de <strong>clients potentiels</strong></li>
+            <li>d’assurer sa <span class="bg-jaune txt-duck">fiabilité</span> et sa <span class="bg-jaune txt-duck">popularité</span> auprès de sa <strong>clientèle</strong></li>
+            <li>de confirmer la <span class="bg-jaune txt-duck">crédibilité</span> auprès des <strong>partenaires commerciaux ou institutionnels</strong></li>
+          </ul>
+          </br>
+          </br>
+
+          <p>Les éléments graphiques constituant l’identité visuelle sont :</p>
+        </div>
+        <div>
+
+          <article class="bg-img">
+            <div></div>
+            <h3>Le logotype</h3>
+            <div class="text">
+              <p>Votre logotype ou « <strong>logo</strong> » est l’élément graphique qui permet à votre société d’être <b>facilement identifiée</b> et <b>mémorisée</b> par les clients.</p>
+              <p>Votre <strong>logo</strong> doit donc évoquer de manière unique et immédiate votre <strong>activité</strong>, votre <b>personnalité</b> ainsi que vos <strong>valeurs</strong>. C’est l’élément fédérateur des différents produits ou activités
+                d'une entreprise.</p>
+              <p>Nous nous attachons à vous <strong>offrir le meilleur service</strong> afin de vous démarquer de la concurrence.</p>
+            </div>
+            <img src="img/presentation_logo.jpg" alt="presentation_logo">
+          </article>
+
+
+          <article class="bg-img">
+            <div></div>
+            <h3>La communication print</h3>
+            <div class="text">
+              <p>Le <strong>papier</strong> est un support idéal pour <strong>valoriser l’identité et l’image</strong> de votre entreprise.</p>
+              <p>Il facilite la <b>mémorisation</b> de votre message auprès des prospects et véhicule une <b>information ciblée</b> sur vos produits, services ou activités.</p>
+              <p>La <strong>diversité des supports</strong> permet de transmettre des messages variés et adaptés et offre une <strong>excellente visibilité</strong> auprès de vos clients.</p>
+            </div>
+            <img src="img/presentation_print.jpg" alt="img/">
+          </article>
+
+          <article class="bg-img">
+            <div></div>
+            <h3>La communication digitale</h3>
+            <div class="text">
+              <p>Un <strong>site internet</strong> permet d’asseoir la <strong>notoriété</strong> d’une entreprise ou d’une marque.</p>
+<p>Il permet de répondre aux <b>demandes d’informations</b> de sa clientèle et de prospecter activement à <strong>moindre coût</strong>.</p>
+<p>Les sites dît « <strong>One Page</strong> » sont destinés aux artisans, commerçants ou aux petites et moyennes entreprises qui veulent <strong>attirer de nouveaux clients</strong> ou <strong>lancer un produit</strong>.</p>
+            </div>
+  <img src="img/presentation_numerique.jpg" alt="img/">
+          </article>
+        </div>
+
+
+    </section>
+
+    <section id="services">
+      <header class="flexcol">
+        <h2>Des prestations à la carte<br>un suivi étape par étape</h2>
+        <img src="icons/header_services.svg" alt="header_services">
+      </header>
+
+      <div id="packClassic">
+        <div class="container">
+          <article>
+            <h3>Pack CLASSIC</h3>
+            <div class="text">
+              <p>Lorem erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</br>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at.Lorem erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                aliquip ex ea commodo consequat.</br>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at.</p>
+            </div>
+            <a class="btn" href="#">Fermer</a>
+            <div class="prix flexcol">
+              <p>à partir de</p>
+              <p>530€</p>
+            </div>
+
+            <div class="volet flexcol">
+
+              <div class="pictos flexrow">
+                <div class="picto flexcol">
+                  <img src="icons/pack_classic_logo.svg" alt="pack_classic_logo">
+                  <h4>Logo</h4>
+                  <p>Création de votre logo 2&nbsp;ou&nbsp;3 propositions</p>
+                </div>
+                <div class="picto flexcol">
+                  <img src="icons/pack_classic_carteDeVisite.svg" alt="pack_classic_carteDeVisite">
+                  <h4>Carte de visite</h4>
+                  <p>Création de vos cartes de visite recto&nbsp;/&nbsp;verso sans pelliculage</p>
+                </div>
+                <div class="picto flexcol">
+                  <img src="icons/pack_classic_papierEntete.svg" alt="pack_classic_papierEntete">
+                  <h4>Papier à&nbsp;en-tête</h4>
+                  <p>Création de vos lettres à en-têteau format&nbsp;A4</p>
+                </div>
+              </div>
+              <a class="btn" href="#">En savoir +</a>
+            </div>
+
+          </article>
+
+        </div>
+      </div>
+
+      <div id="packPrint">
+        <div class="container">
+          <article>
+
+          </article>
+
+        </div>
+      </div>
+
+      <div id="packWeb">
+        <div class="container">
+          <article>
+
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="methods">
+      <header>
+        <h2>Plus de 25 ans d’Expérience<br>dans la communication visuelle</h2>
+        <div class="bg"></div>
+      </header>
+
+      <div class="container">
+
+        <div class="text">
+          <p><span class="bg-jaune text-duck"><span class="resize">add</span>com</span> est une nouvelle corde à l’arc d’<a href="https://www.addpub.fr/"><span class="resize">add</span>pub</a></p>
+
+          <div class="text-stairs">
+            <p>Nous proposons de partager : </p>
+            <div class="flexcol">
+              <p class="bg-jaune txt-duck">notre SAVOIR-FAIRE</p>
+              <p class="bg-jaune txt-duck">nos METHODES</p>
+              <p class="bg-jaune txt-duck">nos SOLUTIONS</p>
+            </div>
+          </div>
+          <p><strong>A VOTRE SERVICE</strong></p>
+          <p>Vous êtes toujours au centre des <b>3 étapes</b></p>
+          <p>de la création de votre <strong>identité visuelle</strong></p>
+
+        </div>
+
+        <div class="anim">
+
+        </div>
+
+        <div class="flexrow">
+          <article class="flexcol bg-jaune">
+            <img src="icons/methodes_identification.svg" alt="methodes_identification">
+            <h3>1. L'identification</h3>
+            <div>
+              <p>
+                Durant cette étapes d’analyse, nous sommes à l’écoute de vos <strong>besoins</strong> et de vos <b>motivations</b> pour refléter au mieux l’image que vous voulez <b>partager</b> de votre marque ou de votre entreprise.</p>
+              <p>C’est au travers de ses <b>échanges</b> que nous trouverons comment rendre <strong>votre image unique et originale</strong></p>
+            </div>
+          </article>
+          <article class="flexcol bg-jaune">
+            <img src="icons/methodes_conception.svg" alt="methodes_conception">
+            <h3>2. La conception</h3>
+            <div>
+              <p>C’est <b>l’étape qui définit</b> les élément graphiques. Nous vous proposons plusieurs déclinaison de l’univers fixé à l’étape 1 et vous orientez notre axe selon <strong>vos préférences</strong>.</p>
+              <p><strong>La charte graphique</strong> ainsi établi donnera la <b>cohérence</b> à l’ensemble de vos supports de communication.</p>
+            </div>
+
+          </article>
+          <article class="flexcol bg-jaune">
+            <img src="icons/methodes_production.svg" alt="methodes_production">
+            <h3>3. La production</h3>
+            <div>
+              <p>C’est <b>l’étape finale</b> de création de votre projet.. Vous vérifiez <b>l’adéquation de votre demande</b> et de nos propositions.</p>
+              <p>Une fois validée, nous mettons en oeuvre la production sur tous les supports demandés en utilisant notre <strong>savoir-faire</strong> pour vous offrir <strong>une prestation de qualité</strong>.</p>
+            </div>
+          </article>
+        </div>
+
+        <p><b>Nous sommes à l’écoute de vos BESOINS<br/>
+et trouvons les SOLUTIONS pour les satisfaire</b></p>
+        <a class="btn" href="#contactForm">Nous contacter</a>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <header>
+
+      </header>
+      <div class="text">
+      </div>
+
+      <div id="contactForm" class="form">
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div id=test>
+      <div class="imgtest">
+
+      </div>
+
+    </div>
+
+  </footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
